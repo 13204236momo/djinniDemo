@@ -3,10 +3,12 @@
 cd `dirname $0`
 work_dir=$(pwd)
 
-#配置环境变量
-if [ $ANDROID_NDK_HOME ]; then
-	ANDROID_NDK_ROOT= $ANDROID_NDK_HOME
+#配置ndk环境变量,将ndk的path赋值给ANDROID_NDK_ROOT
+if [ $ANDROID_NDK_HOME ];then
+  ANDROID_NDK_ROOT=$ANDROID_NDK_HOME
 fi
+
+echo $ANDROID_NDK_ROOT
 
 function clean(){
   echo "clean"
