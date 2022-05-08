@@ -1,0 +1,18 @@
+
+sex_mode_enum = enum {
+	SEX_MAN;
+	SEX_WOMAN;
+}
+
+test_info_store = record {
+    id: i32;
+	name: string;
+	project: string;
+	sex: sex_mode_enum;
+}
+
+test_djnni_interface = interface +c {
+	show(testInfo: test_info_store): string;
+	static newInstance(): test_djnni_interface;
+	const version: i32 = 1;
+}

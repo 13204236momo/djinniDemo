@@ -1,0 +1,1 @@
+/Users/zhoumohan/Desktop/djinniDemo/api_generator/auto_gen/jni/common/JNITestDjnniInterface.cpp

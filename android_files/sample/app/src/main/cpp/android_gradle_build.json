@@ -1,0 +1,65 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/zhoumohan/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"mytest-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "mytest",
+			"buildCommand" : "/Users/zhoumohan/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp --target mytest",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmytest_EXPORTS -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/header -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include/jni -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -std=c++11 -O2  -fPIC    -c ",
+					"src" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/common_src/test_djinni_wrapper.cpp",
+					"workingDirectory" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmytest_EXPORTS -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/header -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include/jni -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -std=c++11 -O2  -fPIC    -c ",
+					"src" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/jni/JNITestDjnniInterface.cpp",
+					"workingDirectory" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmytest_EXPORTS -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/header -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include/jni -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -std=c++11 -O2  -fPIC    -c ",
+					"src" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/jni/JNITestInfoStore.cpp",
+					"workingDirectory" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmytest_EXPORTS -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/header -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include/jni -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -std=c++11 -O2  -fPIC    -c ",
+					"src" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/djinni_main.cpp",
+					"workingDirectory" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Dmytest_EXPORTS -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/header -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include/jni -I/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -std=c++11 -O2  -fPIC    -c ",
+					"src" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp/support_lib/djinni_support.cpp",
+					"workingDirectory" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/sample/app/src/main/cpp"
+				}
+			],
+			"output" : "/Users/zhoumohan/Desktop/djinniDemo/android_files/android_out/armeabi-v7a/libmytest.so",
+			"toolchain" : "10880903486648585209"
+		}
+	},
+	"toolchains" : 
+	{
+		"10880903486648585209" : 
+		{
+			"cCompilerExecutable" : "/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/zhoumohan/Library/Android/sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

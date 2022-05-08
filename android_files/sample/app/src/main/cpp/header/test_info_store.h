@@ -1,0 +1,1 @@
+/Users/zhoumohan/Desktop/djinniDemo/api_generator/auto_gen/public/include/common/test_info_store.h
